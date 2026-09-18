@@ -11,4 +11,6 @@ public class Ship
     public double? CourseOverGround { get; set; }
     public string? Destination { get; set; }
     public DateTime LastUpdatedUtc { get; set; }
+    public double Speed { get; internal set; }
+    public int Heading { get; internal set; }
 }
